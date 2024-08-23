@@ -2,9 +2,7 @@
 
 ## Required
 
-* Docker
-* VS Code
-  * Extensions: [Dev Containers](vscode:extension/ms-vscode-remote.remote-containers)
+* [Redlocly CLI](https://redocly.com/docs/cli/installation)
 
 ## Folder Structure
 

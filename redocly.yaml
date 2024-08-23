@@ -20,7 +20,7 @@ rules:
 
 theme:
   openapi:
-    # expandResponses: all
+    expandResponses: all
     jsonSampleExpandLevel: all
     hideDownloadButton: true
     pathInMiddlePanel: false
