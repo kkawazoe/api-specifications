@@ -36,21 +36,3 @@ redocly preview-docs docs/open_api/src/sample_api.yaml
 ```sh
 redocly build-docs docs/open_api/src/sample_api.yaml --output=docs/open_api/dist/sample_api.html
 ```
-
-## Trouble Shooting
-
-### Error on git connection
-
-ex. git pull origin main
-
-```sh
-git pull origin source
-# fatal: unable to access 'https://github.com/<<remote-url>>/': server certificate verification failed. CAfile: none CRLfile: none
-```
-
-Execute the following commands
-※Dev container, so once this way around
-
-```sh
-git config --local http.sslverify false
-```
